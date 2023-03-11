@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+body{
+    background-color: var(white);
+    font-family: 'Manrope', sans-serif;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartao-conselho{
+    background-color: var(--advice-card-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 545px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.cartao-conselho .id-conselho{
+    color: var(--advice-dice-color);
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin-top: 30px;
+}
+
+.cartao-conselho .texto-conselho{
+    text-align: center;
+    color: var(--text-color);
+    font-size: 28px;
+    padding: 23px;
+    letter-spacing: -0.3px;
+
+}
+
+.cartao-conselho .icone-dado{
+    background-color: var(--advice-dice-color);
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 50%;
+    transform: translateY(50%);
+}
+
+.cartao-conselho .icone-dado:hover{
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px var(--advice-dice-color);
+}

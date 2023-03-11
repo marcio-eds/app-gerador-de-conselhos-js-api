@@ -1,0 +1,13 @@
+@media(max-width: 768px){
+    .cartao-conselho{
+        padding-inline: 50px;
+        width: 386px;
+    }
+    .cartao-conselho{
+        font-size: 21px;
+        padding: 26px;
+    }
+    .cartao-conselho .icone-dado{
+        transform: translateY(90%);
+    }
+}
